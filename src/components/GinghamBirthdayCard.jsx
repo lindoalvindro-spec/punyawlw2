@@ -331,7 +331,7 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/wlw 7.jpeg"
+                  src="/wlw 8.jpeg"
                   alt="Sayang"
                   style={{
                     width: '100%',
