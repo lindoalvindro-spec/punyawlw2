@@ -310,7 +310,7 @@ export default function PasscodeScreen({ onUnlock }) {
               marginTop: '4px',
             }}
           >
-            Clue: tanggal & bulan ultah 💗
+            Clue: coba tebak 💗
           </p>
         </div>
 
