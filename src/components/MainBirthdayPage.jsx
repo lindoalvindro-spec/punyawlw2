@@ -17,15 +17,17 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy birthday, sayang 🤍", style: "greeting" },
+    { text: "Happy birthday, sayangkuuu", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "Semoga di umur kamu yang sekarang, kamu selalu diberi kesehatan, kebahagiaan, rezeki yang lancar, dan dimudahkan dalam segala urusan.", style: "body" },
+    { text: "Semoga di umur kamu yang sekarang, kamu selalu sehat, panjang umur, rezekinya makin melimpah, dan selalu dimudahkan dalam segala hal yaa.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Makasih ya sudah hadir di hidup aku, sudah selalu berusaha ada, nemenin aku, dan ngasih banyak hal kecil yang ternyata berarti banget buat aku. Aku mungkin belum bisa kasih kamu kado yang besar sekarang, tapi semoga ucapan kecil ini bisa jadi salah satu hal yang bikin kamu senyum hari ini. 🥹🤍", style: "body" },
+    { text: "Makasih yaa udah hadir di hidup aku. Makasih udah selalu sabar, nemenin aku, dan selalu ngeusahain yang terbaik buat aku—bahkan kamu yang selalu rela berbagi rezeki dan ngasih buat aku. Perhatian manis sampai semua effort kamu itu benar-benar berarti banget buat aku.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Semoga kita bisa terus sama-sama, saling jaga, saling support, dan belajar jadi lebih baik satu sama lain.", style: "body" },
+    { text: "Mungkin aku belum bisa kasih kamu kado yang mewah sekarang, tapi aku berharap pesan manis ini bisa bikin kamu tersenyum hari ini.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Happy birthday, my love. I love you. 🤍", style: "ps" },
+    { text: "Semoga kita bisa terus sama-sama, saling jaga, saling support, dan tumbuh jadi lebih baik satu sama lain.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Happy birthday, cintaku. Aku sayang banget sama kamuuu", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -186,7 +188,7 @@ function LetterTypewriter() {
             }}
           >
             <span style={{ color: '#60a5fa', fontSize: '0.85rem' }}>With all my love,</span><br />
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Revan 🤍</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Rindiii</span>
           </div>
         )}
       </div>
@@ -313,7 +315,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy 20th Birthday, Joe setioso 🤍. Semoga di umur 20 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala urusan. I am grateful every single day to have you in my life 💗
+        Makasih yaa sayang udah bertahan sejauh ini, aku bangga sama kamu. Kamu bisa ngelewatin semua masalah di hidup kamu. Hidup lebih lama yaa sayang gak boleh nyerah, kita belum wujudin wishlist dan kita belum keliling Indonesia. Sama aku terus yaa sayang, love youuu 🤍
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -385,76 +387,6 @@ function FarewellSection({ onOpenCake }) {
   );
 }
 
-/* ====== PERSONAL MESSAGE CARD SUB-COMPONENT ====== */
-function PersonalMessageCard() {
-  const cardRef = useRef(null);
-
-  return (
-    <div
-      ref={cardRef}
-      style={{
-        background: 'linear-gradient(165deg, rgba(10, 30, 63, 0.85) 0%, rgba(4, 16, 38, 0.92) 100%)',
-        borderRadius: '28px',
-        border: '1.5px solid rgba(96, 165, 250, 0.4)',
-        padding: '26px 20px',
-        textAlign: 'center',
-        position: 'relative',
-        boxShadow: '0 18px 40px rgba(0,0,0,0.7), inset 0 0 20px rgba(0, 210, 255, 0.1)',
-        marginBottom: '36px',
-        overflow: 'hidden',
-      }}
-    >
-      {/* Decorative Glow */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '-30px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: '180px',
-          height: '180px',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(0, 210, 255, 0.2) 0%, transparent 70%)',
-          filter: 'blur(20px)',
-          pointerEvents: 'none',
-        }}
-      />
-
-      <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '6px' }}>
-        — PERSONAL MESSAGE —
-      </p>
-      
-      <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', color: '#ffffff', marginBottom: '16px' }}>
-        A Heartfelt Note For You 🤍
-      </h3>
-
-      <div
-        style={{
-          padding: '20px 18px',
-          background: 'rgba(255, 255, 255, 0.05)',
-          borderRadius: '20px',
-          border: '1px solid rgba(96, 165, 250, 0.25)',
-          boxShadow: 'inset 0 0 15px rgba(0, 210, 255, 0.08)',
-        }}
-      >
-        <p
-          style={{
-            fontSize: '0.94rem',
-            lineHeight: '1.75',
-            color: '#e0f2fe',
-            fontStyle: 'italic',
-            fontWeight: '400',
-            margin: 0,
-            fontFamily: 'var(--font-body)',
-          }}
-        >
-          "Aku selalu menghargai setiap effort dan hal kecil yang kamu lakukan buat aku. Dan waktu kamu bilang kata-kataku pernah membuatmu mulai menjaga sholat lagi, jujur aku terharu banget. Semoga kehadiranku selalu membawa hal baik buat kamu. 🤍"
-        </p>
-      </div>
-    </div>
-  );
-}
-
 export default function MainBirthdayPage() {
   const containerRef = useRef(null);
   const heroRef = useRef(null);
@@ -509,7 +441,9 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
+    { id: 1, title: 'Risk It All', artist: 'The Vamps', duration: '3:38', src: '/Risk It All_spotdown.org.mp3' },
+    { id: 2, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
+    { id: 3, title: 'Untukku', artist: 'Chrisye', duration: '4:19', src: '/Untukku_spotdown.org.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
@@ -555,7 +489,7 @@ export default function MainBirthdayPage() {
       title: 'My Prettiest Girl 💖', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 1.jpeg',
+      img: '/wlw 1.jpeg',
       rotation: '-3deg'
     },
     { 
@@ -563,7 +497,7 @@ export default function MainBirthdayPage() {
       title: 'Sweetest Smile ✨', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 2.jpeg',
+      img: '/wlw 2.jpeg',
       rotation: '2.5deg'
     },
     { 
@@ -571,7 +505,7 @@ export default function MainBirthdayPage() {
       title: 'Precious Memories 🌸', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 3.jpeg',
+      img: '/wlw 3.jpeg',
       rotation: '-2deg'
     },
     { 
@@ -579,7 +513,7 @@ export default function MainBirthdayPage() {
       title: 'Favorite Moments 💕', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 4.jpeg',
+      img: '/wlw 4.jpeg',
       rotation: '3deg'
     },
     { 
@@ -587,15 +521,15 @@ export default function MainBirthdayPage() {
       title: 'Forever & Always 💫', 
       date: 'Special Moment', 
       location: 'Our Journey',
-      img: '/joy 5.jpeg',
+      img: '/wlw 5.jpeg',
       rotation: '-1.5deg'
     },
     { 
       id: 6, 
-      title: 'Happy 20th Birthday 🌷', 
+      title: 'Happy 19th Birthday 🌷', 
       date: '13 Agustus Special', 
       location: 'Our Journey',
-      img: '/joy 6.jpeg',
+      img: '/wlw 6.jpeg',
       rotation: '2deg'
     },
   ];
@@ -992,7 +926,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Joe Setioso
+            Sayang
           </div>
         </div>
 
@@ -1055,7 +989,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          HAPPY 20TH BIRTHDAY &nbsp; 13 AGUSTUS 🤍
+          HAPPY 19TH BIRTHDAY &nbsp; 13 AGUSTUS 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1303,9 +1237,6 @@ export default function MainBirthdayPage() {
       {/* SECTION 3: A LETTER FOR YOU — TYPEWRITER EFFECT */}
       <LetterTypewriter />
 
-      {/* SECTION 3.5: PERSONAL MESSAGE CARD */}
-      <PersonalMessageCard />
-
       {/* SECTION 4: POLAROID PHOTO GALLERY */}
       <div style={{ textAlign: 'center', marginBottom: '36px' }}>
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '4px' }}>
@@ -1349,8 +1280,9 @@ export default function MainBirthdayPage() {
                 alt={item.title}
                 style={{
                   width: '100%',
-                  height: '210px',
-                  objectFit: 'cover',
+                  height: '240px',
+                  objectFit: 'contain',
+                  backgroundColor: '#f1f5f9',
                   borderRadius: '4px',
                   marginBottom: '10px',
                 }}
@@ -1640,7 +1572,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 SPECIAL NOTE FOR JOE SETIOSO 💙
+              📜 SPECIAL NOTE FOR SAYANG 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1710,8 +1642,9 @@ export default function MainBirthdayPage() {
               alt={selectedPhoto.title}
               style={{
                 width: '100%',
-                maxHeight: '360px',
-                objectFit: 'cover',
+                maxHeight: '400px',
+                objectFit: 'contain',
+                backgroundColor: '#f1f5f9',
                 borderRadius: '10px',
                 marginBottom: '14px',
               }}
@@ -1772,10 +1705,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy 20th Birthday!
+              Happy 19th Birthday!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              The most special Joe setioso 💗
+              The most special Sayang 💗
             </p>
 
             <button

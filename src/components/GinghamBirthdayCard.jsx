@@ -164,7 +164,7 @@ export default function GinghamBirthdayCard() {
           Interactive Gift Card 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Joe setioso's birthday surprise ✨
+          Tap the card to open Sayang's birthday surprise ✨
         </p>
       </div>
 
@@ -224,16 +224,16 @@ export default function GinghamBirthdayCard() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <Sparkles size={18} color="#b4001e" />
                 <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR JOE SETIOSO
+                  A SPECIAL MESSAGE FOR SAYANG
                 </span>
               </div>
 
               <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy 20th Birthday, My Favorite Person! 🎂✨
+                Happy 19th Birthday, My Favorite Person! 🎂✨
               </h4>
 
               <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                You bring so much joy, love, and sunshine into my world. May your 20s be filled with endless smiles, health, and all your heart's desires! 💕
+                Happy birthday untuk sosok favorit aku! Makasih yaa sudah selalu jadi tempat paling nyaman dan bikin hari-hariku selalu penuh senyum. Semoga tahun ini bawa banyak banget kebahagiaan buat kamu. I love you so much, sayangkuuu
               </p>
             </div>
 
@@ -331,13 +331,14 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/joy 1.jpeg"
-                  alt="Joy holding flowers"
+                  src="/wlw 7.jpeg"
+                  alt="Sayang"
                   style={{
                     width: '100%',
                     height: '100%',
                     borderRadius: '50%',
                     objectFit: 'cover',
+                    objectPosition: 'center 20%',
                     display: 'block',
                   }}
                 />
